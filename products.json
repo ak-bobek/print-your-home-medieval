@@ -1,0 +1,200 @@
+[
+  {
+    "id": "sci-fi-crate",
+    "name": "Sci‑Fi Crate",
+    "category": "Props",
+    "price": 9.0,
+    "formats": [
+      "FBX",
+      "OBJ",
+      "GLTF"
+    ],
+    "polycount": 2400,
+    "rigged": false,
+    "animated": false,
+    "textures": "PBR 4K (BaseColor, Roughness, Metalness, Normal, AO)",
+    "tags": [
+      "sci‑fi",
+      "crate",
+      "pbr",
+      "game‑ready",
+      "low‑poly"
+    ],
+    "license": "Standard Commercial",
+    "cover": "assets/sci-fi-crate.svg",
+    "paymentLink": "",
+    "description": "Научно‑фантастический ящик с PBR‑текстурами. Оптимизирован для игр и рендеринга."
+  },
+  {
+    "id": "low-poly-tree-pack",
+    "name": "Low‑Poly Tree Pack (12 шт.)",
+    "category": "Environment",
+    "price": 5.0,
+    "formats": [
+      "GLTF",
+      "FBX"
+    ],
+    "polycount": 800,
+    "rigged": false,
+    "animated": false,
+    "textures": "Flat colors / Atlas 2K",
+    "tags": [
+      "low‑poly",
+      "trees",
+      "mobile",
+      "stylized"
+    ],
+    "license": "Standard Commercial",
+    "cover": "assets/low-poly-tree-pack.svg",
+    "paymentLink": "",
+    "description": "Набор из 12 стилизованных деревьев. Отлично подходит для мобильных проектов."
+  },
+  {
+    "id": "medieval-house",
+    "name": "Medieval House",
+    "category": "Architecture",
+    "price": 19.0,
+    "formats": [
+      "FBX",
+      "OBJ",
+      "BLEND"
+    ],
+    "polycount": 14500,
+    "rigged": false,
+    "animated": false,
+    "textures": "PBR 4K",
+    "tags": [
+      "medieval",
+      "house",
+      "architecture",
+      "pbr"
+    ],
+    "license": "Standard Commercial",
+    "cover": "assets/medieval-house.svg",
+    "paymentLink": "",
+    "description": "Средневековый дом с детализированными PBR‑материалами. UV‑развёртка, отдельные детали."
+  },
+  {
+    "id": "sports-car",
+    "name": "Sports Car",
+    "category": "Vehicles",
+    "price": 29.0,
+    "formats": [
+      "FBX",
+      "OBJ",
+      "GLTF"
+    ],
+    "polycount": 120000,
+    "rigged": false,
+    "animated": false,
+    "textures": "PBR 4K",
+    "tags": [
+      "car",
+      "vehicle",
+      "sports",
+      "realistic"
+    ],
+    "license": "Standard Commercial",
+    "cover": "assets/sports-car.svg",
+    "paymentLink": "",
+    "description": "Высокополигональный спортивный автомобиль. Подходит для визуализаций и синематиков."
+  },
+  {
+    "id": "female-basemesh",
+    "name": "Female Basemesh",
+    "category": "Characters",
+    "price": 15.0,
+    "formats": [
+      "BLEND",
+      "OBJ",
+      "FBX"
+    ],
+    "polycount": 22000,
+    "rigged": false,
+    "animated": false,
+    "textures": "Neutral material",
+    "tags": [
+      "basemesh",
+      "character",
+      "topology",
+      "retopo"
+    ],
+    "license": "Standard Commercial",
+    "cover": "assets/female-basemesh.svg",
+    "paymentLink": "",
+    "description": "Базовая сетка женского персонажа с чистой топологией для дальнейшей доработки."
+  },
+  {
+    "id": "handgun-pistol",
+    "name": "Handgun Pistol",
+    "category": "Weapons",
+    "price": 12.0,
+    "formats": [
+      "FBX",
+      "OBJ",
+      "GLTF"
+    ],
+    "polycount": 6500,
+    "rigged": false,
+    "animated": false,
+    "textures": "PBR 4K",
+    "tags": [
+      "weapon",
+      "pistol",
+      "pbr",
+      "game‑ready"
+    ],
+    "license": "Standard Commercial",
+    "cover": "assets/handgun-pistol.svg",
+    "paymentLink": "",
+    "description": "Игровая модель пистолета с PBR‑текстурами. Отдельные меши для затвора и спуска."
+  },
+  {
+    "id": "office-chair",
+    "name": "Office Chair",
+    "category": "Props",
+    "price": 7.0,
+    "formats": [
+      "FBX",
+      "OBJ"
+    ],
+    "polycount": 4800,
+    "rigged": false,
+    "animated": false,
+    "textures": "PBR 2K",
+    "tags": [
+      "chair",
+      "office",
+      "prop"
+    ],
+    "license": "Standard Commercial",
+    "cover": "assets/office-chair.svg",
+    "paymentLink": "",
+    "description": "Офисное кресло. Сбалансированное количество полигонов для real‑time сцен."
+  },
+  {
+    "id": "drone-quadcopter",
+    "name": "Drone Quadcopter",
+    "category": "Tech",
+    "price": 17.0,
+    "formats": [
+      "FBX",
+      "OBJ",
+      "GLTF"
+    ],
+    "polycount": 18000,
+    "rigged": false,
+    "animated": false,
+    "textures": "PBR 4K",
+    "tags": [
+      "drone",
+      "tech",
+      "quad",
+      "pbr"
+    ],
+    "license": "Standard Commercial",
+    "cover": "assets/drone-quadcopter.svg",
+    "paymentLink": "",
+    "description": "Квадрокоптер с PBR‑материалами. Лопасти отдельными объектами."
+  }
+]

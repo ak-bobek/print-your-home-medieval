@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vektor3D — Магазин 3D‑моделей</title>
+  <meta name="description" content="Готовые 3D‑модели для игр, визуализации и VR">
+  <link rel="icon" href="assets/logo.svg">
+  <link rel="preload" href="assets/logo.svg" as="image">
+  <link rel="stylesheet" href="styles.css">
+  <meta property="og:title" content="Vektor3D — 3D Models">
+  <meta property="og:description" content="Готовые 3D‑модели для игр, визуализации и VR">
+  <meta property="og:image" content="assets/sci-fi-crate.svg">
+  <meta name="theme-color" content="#0f172a">
+  <!-- Inline fallback products (на случай открытия файла напрямую без веб-сервера) -->
+  <script id="inlineProducts" type="application/json">
+[
+  {
+    "id": "sci-fi-crate",
+    "name": "Sci‑Fi Crate",
+    "category": "Props",
+    "price": 9.0,
+    "formats": [
+      "FBX",
+      "OBJ",
+      "GLTF"
+    ],
+    "polycount": 2400,
+    "rigged": false,
+    "animated": false,
+    "textures": "PBR 4K (BaseColor, Roughness, Metalness, Normal, AO)",
+    "tags": [
+      "sci‑fi",
+      "crate",
+      "pbr",
+      "game‑ready",
+      "low‑poly"
+    ],
+    "license": "Standard Commercial",
+    "cover": "assets/sci-fi-crate.svg",
+    "paymentLink": "",
+    "description": "Научно‑фантастический ящик с PBR‑текстурами. Оптимизирован для игр и рендеринга."
+  },
+  {
+    "id": "low-poly-tree-pack",
+    "name": "Low‑Poly Tree Pack (12 шт.)",
+    "category": "Environment",
+    "price": 5.0,
+    "formats": [
+      "GLTF",
+      "FBX"
+    ],
+    "polycount": 800,
+    "rigged": false,
+    "animated": false,
+    "textures": "Flat colors / Atlas 2K",
+    "tags": [
+      "low‑poly",
+      "trees",
+      "mobile",
+      "stylized"
+    ],
+    "license": "Standard Commercial",
+    "cover": "assets/low-poly-tree-pack.svg",
+    "paymentLink": "",
+    "description": "Набор из 12 стилизованных деревьев. Отлично подходит для мобильных проектов."
+  },
+  {
+    "id": "medieval-house",
+    "name": "Medieval House",
+    "category": "Architecture",
+    "price": 19.0,
+    "formats": [
+      "FBX",
+      "OBJ",
+      "BLEND"
+    ],
+    "polycount": 14500,
+    "rigged": false,
+    "animated": false,
+    "textures": "PBR 4K",
+    "tags": [
+      "medieval",
+      "house",
+      "architecture",
+      "pbr"
+    ],
+    "license": "Standard Commercial",
+    "cover": "assets/medieval-house.svg",
+    "paymentLink": "",
+    "description": "Средневековый дом с детализированными PBR‑материалами. UV‑развёртка, отдельные детали."
+  },
+  {
+    "id": "sports-car",
+    "name": "Sports Car",
+    "category": "Vehicles",
+    "price": 29.0,
+    "formats": [
+      "FBX",
+      "OBJ",
+      "GLTF"
+    ],
+    "polycount": 120000,
+    "rigged": false,
+    "animated": false,
+    "textures": "PBR 4K",
+    "tags": [
+      "car",
+      "vehicle",
+      "sports",
+      "realistic"
+    ],
+    "license": "Standard Commercial",
+    "cover": "assets/sports-car.svg",
+    "paymentLink": "",
+    "description": "Высокополигональный спортивный автомобиль. Подходит для визуализаций и синематиков."
+  },
+  {
+    "id": "female-basemesh",
+    "name": "Female Basemesh",
+    "category": "Characters",
+    "price": 15.0,
+    "formats": [
+      "BLEND",
+      "OBJ",
+      "FBX"
+    ],
+    "polycount": 22000,
+    "rigged": false,
+    "animated": false,
+    "textures": "Neutral material",
+    "tags": [
+      "basemesh",
+      "character",
+      "topology",
+      "retopo"
+    ],
+    "license": "Standard Commercial",
+    "cover": "assets/female-basemesh.svg",
+    "paymentLink": "",
+    "description": "Базовая сетка женского персонажа с чистой топологией для дальнейшей доработки."
+  },
+  {
+    "id": "handgun-pistol",
+    "name": "Handgun Pistol",
+    "category": "Weapons",
+    "price": 12.0,
+    "formats": [
+      "FBX",
+      "OBJ",
+      "GLTF"
+    ],
+    "polycount": 6500,
+    "rigged": false,
+    "animated": false,
+    "textures": "PBR 4K",
+    "tags": [
+      "weapon",
+      "pistol",
+      "pbr",
+      "game‑ready"
+    ],
+    "license": "Standard Commercial",
+    "cover": "assets/handgun-pistol.svg",
+    "paymentLink": "",
+    "description": "Игровая модель пистолета с PBR‑текстурами. Отдельные меши для затвора и спуска."
+  },
+  {
+    "id": "office-chair",
+    "name": "Office Chair",
+    "category": "Props",
+    "price": 7.0,
+    "formats": [
+      "FBX",
+      "OBJ"
+    ],
+    "polycount": 4800,
+    "rigged": false,
+    "animated": false,
+    "textures": "PBR 2K",
+    "tags": [
+      "chair",
+      "office",
+      "prop"
+    ],
+    "license": "Standard Commercial",
+    "cover": "assets/office-chair.svg",
+    "paymentLink": "",
+    "description": "Офисное кресло. Сбалансированное количество полигонов для real‑time сцен."
+  },
+  {
+    "id": "drone-quadcopter",
+    "name": "Drone Quadcopter",
+    "category": "Tech",
+    "price": 17.0,
+    "formats": [
+      "FBX",
+      "OBJ",
+      "GLTF"
+    ],
+    "polycount": 18000,
+    "rigged": false,
+    "animated": false,
+    "textures": "PBR 4K",
+    "tags": [
+      "drone",
+      "tech",
+      "quad",
+      "pbr"
+    ],
+    "license": "Standard Commercial",
+    "cover": "assets/drone-quadcopter.svg",
+    "paymentLink": "",
+    "description": "Квадрокоптер с PBR‑материалами. Лопасти отдельными объектами."
+  }
+]
+  </script>
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a class="logo" href="#"><img src="assets/logo.svg" alt="Vektor3D"><span>Vektor3D</span></a>
+      <nav class="nav">
+        <a href="#catalog">Каталог</a>
+        <a href="#licensing">Лицензии</a>
+        <a href="#contact">Контакты</a>
+      </nav>
+      <div class="actions">
+        <button id="themeToggle" class="btn btn--ghost" aria-label="Переключить тему">Тема</button>
+        <button id="cartToggle" aria-label="Открыть корзину" class="btn">
+          Корзина <span class="badge" id="cartCount">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Готовые 3D‑модели для игр, визуализации и VR</h1>
+      <p>Покупайте, скачивайте и используйте модели без переплат. Форматы: FBX, OBJ, GLTF/GLB, BLEND.</p>
+      <div class="hero__search">
+        <input type="search" id="searchInput" placeholder="Поиск по каталогу (например, «sci‑fi», «low‑poly», «rigged»)" autocomplete="off">
+      </div>
+      <div class="filters" id="filters">
+        <div class="chips" id="categoryChips"></div>
+        <div class="filter-row">
+          <label>Форматы:</label>
+          <div class="checkboxes" id="formatCheckboxes"></div>
+        </div>
+        <div class="filter-row">
+          <label for="priceRange">Цена:</label>
+          <input type="range" id="priceRange" min="0" max="300" step="1">
+          <span id="priceLabel"></span>
+        </div>
+        <div class="filter-row">
+          <label for="polyFilter">Полигоны:</label>
+          <select id="polyFilter">
+            <option value="any">Любые</option>
+            <option value="lt1k">до 1k</option>
+            <option value="1k-10k">1k–10k</option>
+            <option value="10k-50k">10k–50k</option>
+            <option value="gt50k">50k+</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="catalog" class="catalog container">
+    <div id="productGrid" class="grid"></div>
+    <div id="emptyState" class="empty hidden">Ничего не найдено. Измените фильтры или запрос.</div>
+  </section>
+
+  <div id="cartBackdrop" class="cart-backdrop"></div>
+  <aside id="cartDrawer" class="cart" aria-hidden="true" aria-label="Корзина">
+    <header>
+      <strong>Корзина</strong>
+      <button id="closeCart" class="close">Закрыть</button>
+    </header>
+    <div class="items" id="cartItems"></div>
+    <div class="total">
+      <div>Итого:</div>
+      <div id="cartTotal" style="font-weight:800;"></div>
+    </div>
+    <div class="checkout">
+      <button id="checkoutBtn" class="btn" style="width:100%;">Оформить заказ</button>
+      <p style="color:var(--muted);font-size:12px;margin-top:8px;">Совет: для мгновенной покупки на карточке товара добавьте <code>paymentLink</code> в <code>products.json</code> (Stripe Payment Links, Gumroad и т.п.).</p>
+    </div>
+  </aside>
+
+  <footer class="footer" id="contact">
+    <div class="container foot">
+      <div>
+        <h4>Vektor3D</h4>
+        <p id="tagline">Готовые 3D‑модели для игр, визуализации и VR</p>
+      </div>
+      <div>
+        <h4>Правовые</h4>
+        <a href="legal/license.html">Лицензия</a>
+        <a href="legal/terms.html">Условия</a>
+        <a href="legal/privacy.html">Конфиденциальность</a>
+      </div>
+      <div>
+        <h4>Контакты</h4>
+        <a href="mailto:sales@yourdomain.tld">sales@yourdomain.tld</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="app.js" type="module"></script>
+</body>
+</html>
